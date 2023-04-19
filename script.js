@@ -20,10 +20,11 @@
             var posiçãoX = Math.floor(Math.random() * 501)
             var posiçãoY = Math.floor(Math.random() * 501)
 
-
+        //Printa no console as posições aleatórias geradas
+            
             console.log(posiçãoX)
             console.log(posiçãoY)
-
+        //Envia essa posição para o style
             btNao.style.top = posiçãoX + "px"
             btNao.style.right = posiçãoY + "px"
 
