@@ -4,7 +4,7 @@
         var outSim = document.getElementById("outSim")
 
 
-
+        //Oculta os botões e exibe o texto de saída
         btSim.addEventListener("click", () => {
             btNao.className = "oculta"
             btSim.className = "oculta"
@@ -24,7 +24,7 @@
             
             console.log(posiçãoX)
             console.log(posiçãoY)
-        //Envia essa posição para o style
+        //Envia posição para o style
             btNao.style.top = posiçãoX + "px"
             btNao.style.right = posiçãoY + "px"
 
